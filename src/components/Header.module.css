@@ -1,0 +1,101 @@
+/* Header.module.css */
+
+.header {
+  width: 97%;
+  background-color: #451366; /* твой цвет */
+  padding: 20px 40px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  position: fixed;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 100;
+  border-radius: 10px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo img {
+  height: 50px; /* высота логотипа */
+  width: auto;
+}
+
+.header h1 {
+  font-size: 2rem;
+  margin: 0;
+  color: #f7f8f7;
+  font-weight: 600;
+  text-align: left;
+}
+
+
+.nav {
+  display: flex;
+  gap: 20px;
+}
+
+.nav button {
+  width: 100px;
+  padding: 10px 0;
+  background-color: #f5f4f8; /* твой цвет кнопки */
+  color: rgb(19, 0, 13);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: 500;
+  text-align: center;
+  transition: background 0.3s;
+}
+
+.nav button:hover {
+  background-color: #b9b8b8; /* hover */
+}
+
+/* бургер меню для мобилки */
+.burger {
+  display: none;
+  font-size: 2rem;
+  background: none;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+/* адаптив */
+@media (max-width: 768px) {
+  .header {
+    width: 100%;
+    border-radius: 0;
+    padding: 15px 20px;
+  }
+
+  .logo img {
+    height: 40px; /* уменьшаем логотип на маленьких экранах */
+  }
+
+  .nav {
+    display: none;
+    flex-direction: column;
+    background: #451366; /* фон как у хедера */
+    position: absolute;
+    top: 60px;
+    right: 20px;
+    padding: 15px;
+    border-radius: 8px;
+  }
+
+  .nav.open {
+    display: flex;
+  }
+
+  .nav button {
+    width: 120px; /* чуть шире, чтобы кнопки помещались */
+    font-size: 0.9rem;
+  }
+
+  .burger {
+    display: block;
+  }
+}
