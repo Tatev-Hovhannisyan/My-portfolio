@@ -1,0 +1,41 @@
+.contact {
+  display: flex;
+  justify-content: flex-end; 
+  padding: 50px 40px;
+  box-sizing: border-box;
+  width: 100vw;
+  min-height: 100%;
+  align-items: center;
+  padding: 0, 40px;
+  background: rgba(0, 0, 0, 0.5);
+   
+}
+
+.contactContent {
+  max-width: 600px;       
+  text-align: right;      
+}
+
+.contact h2 {
+  font-size: 2rem;
+  margin-bottom: 15px;
+  color: #f7f5f5;
+  text-align: right;
+  
+}
+
+.contact p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  color: #fffdfd;
+  text-align: right;
+}
+
+.contact a {
+  color: #65b7ee;
+  text-decoration: none;
+}
+
+.contact a:hover {
+  text-decoration: underline;
+}
