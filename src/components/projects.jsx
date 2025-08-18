@@ -7,35 +7,35 @@ const projects = [
     id: 1,
     title: "ACA Tetris",
     description: "Classic Tetris game built with JavaScript and React.",
-    image: "/tetris.png", // ✅ из public/tetris.png
+    image: "./tetris.png", // ✅ из public/tetris.png
     link: "https://tatev-hovhannisyan.github.io/aca_tetris/",
   },
   {
     id: 2,
     title: "Rotating Shape",
     description: "Interactive shape rotation demo using React.",
-    image: "/rotating-shape.png", // ✅ из public/rotating-shape.png
+    image: "./rotating-shape.png", // ✅ из public/rotating-shape.png
     link: "https://tatev-hovhannisyan.github.io/Rotating-Shape/",
   },
   {
     id: 3,
     title: "Budget Tracker",
     description: "Web app to track personal expenses and budget.",
-    image: "/budget-tracker.png",
+    image: "./budget-tracker.png",
     link: "https://tatev-hovhannisyan.github.io/Budget-Tracker/",
   },
   {
     id: 4,
     title: "ToDo List App",
     description: "React project to manage tasks with add/edit/delete features.",
-    image: "/todo-list.png",
+    image: "./todo-list.png",
     link: "https://tatev-hovhannisyan.github.io/react-project-ToDoList/",
   },
   {
     id: 5,
     title: "Game1",
     description: "Fun mini game built with JavaScript.",
-    image: "/game1.png",
+    image: "./game1.png",
     link: "https://tatev-hovhannisyan.github.io/Game1/",
   },
 ];

@@ -12,7 +12,7 @@ function App() {
       {/* Header */}
       <header className="header">
          <div className="logo">
-        <img src="/logo-TH.png" alt="Tatev Hovhannisyan Logo" />
+        <img src="./logo-TH.png" alt="Tatev Hovhannisyan Logo" />
       </div>
         <h1>Tatev Hovhannisyan</h1>
 

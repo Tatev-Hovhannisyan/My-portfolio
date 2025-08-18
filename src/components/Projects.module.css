@@ -1,18 +1,18 @@
 .projects {
   width: 100%;
-  min-height: 100vh;
+  min-height: calc(100vh - 80px); /* вычитаем высоту header */
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: flex-start;
+  justify-content: center; /* вертикальный центр */
   padding: 60px 20px;
   box-sizing: border-box;
- 
 }
 
+
 .projects h2 {
-  font-size: 2rem;
-  margin-bottom: 30px;
+  font-size: 3rem;
+  margin-bottom: 50px;
   color: rgb(245, 248, 245);
   text-align: center;
 }
@@ -23,6 +23,7 @@
   gap: 20px;
   max-width: 1200px;
   width: 100%;
+  justify-content: center; /* горизонтальный центр */
 }
 
 .projectCard {
