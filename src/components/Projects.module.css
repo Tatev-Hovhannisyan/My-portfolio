@@ -9,12 +9,17 @@
   box-sizing: border-box;
 }
 
-
 .projects h2 {
   font-size: 3rem;
   margin-bottom: 50px;
   color: rgb(245, 248, 245);
   text-align: center;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  padding-top: 50px;
+  box-sizing: border-box;
+  width: 100vw;
 }
 
 .projectsGrid {
@@ -43,7 +48,7 @@
 
 .projectContent {
   padding: 15px;
-  text-align: left; 
+  text-align: left;
 }
 
 .projectContent h3 {
@@ -71,7 +76,6 @@
 .btn:hover {
   background: #217dbb;
 }
-
 
 @media (max-width: 1024px) {
   .projectsGrid {

@@ -10,7 +10,7 @@ export default function Header({ setActiveSection }) {
         <img src="./logo.png" alt="Tatev Hovhannisyan Logo" />
       </div>
 
-<h1>Tatev Hovhannisyan</h1>
+<h2>Tatev Hovhannisyan</h2>
 
       <button 
         className={styles.burger} 
