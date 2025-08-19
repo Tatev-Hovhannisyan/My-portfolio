@@ -1,15 +1,16 @@
 .projects {
   width: 100%;
-  min-height: calc(100vh - 80px); /* вычитаем высоту header */
+  min-height: calc(100vh - 80px);
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center; /* вертикальный центр */
+  justify-content: center;
   padding: 60px 20px;
   box-sizing: border-box;
 }
 
 .projects h2 {
+  display: flex;
   font-size: 3rem;
   margin-bottom: 50px;
   color: rgb(245, 248, 245);
@@ -17,9 +18,11 @@
   background: rgba(0, 0, 0, 0.5);
   display: flex;
   justify-content: center;
+  align-items: center;
   padding-top: 50px;
   box-sizing: border-box;
   width: 100vw;
+  height: 20vh;
 }
 
 .projectsGrid {
@@ -28,13 +31,13 @@
   gap: 20px;
   max-width: 1200px;
   width: 100%;
-  justify-content: center; /* горизонтальный центр */
+  justify-content: center;
 }
 
 .projectCard {
   background-color: #fff;
   border-radius: 12px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  box-shadow: 0 4px 12px rgba(204, 200, 200, 0.7);
   text-align: center;
   overflow: hidden;
 }

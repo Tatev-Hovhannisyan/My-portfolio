@@ -1,35 +1,35 @@
-/* Header.module.css */
-
 .header {
   width: 97%;
-  background-color: #451366; /* твой цвет */
+  background-color: #3603c4;
   padding: 20px 40px;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 2px 5px rgba(255, 255, 255, 0.9);
   position: fixed;
   top: 0;
   left: 50%;
   transform: translateX(-50%);
   z-index: 100;
   border-radius: 10px;
-
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
 
 .logo img {
-  height: 50px; /* высота логотипа */
+  height: 50px;
   width: auto;
+  border-radius: 50%;
+  box-shadow: 0 2px 5px rgba(255, 255, 255, 0.9);
 }
 
 .header h2 {
   font-size: 2rem;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5); 
   margin: 0;
   color: #f7f8f7;
   font-weight: 600;
   text-align: left;
 }
-
 
 .nav {
   display: flex;
@@ -39,8 +39,8 @@
 .nav button {
   width: 100px;
   padding: 10px 0;
-  background-color: #f5f4f8; /* твой цвет кнопки */
-  color: rgb(19, 0, 13);
+  background-color: #f5f4f8;
+  color: rgb(13, 2, 73);
   border: none;
   border-radius: 5px;
   cursor: pointer;
@@ -50,10 +50,9 @@
 }
 
 .nav button:hover {
-  background-color: #b9b8b8; /* hover */
+  background-color: #b9b8b8;
 }
 
-/* бургер меню для мобилки */
 .burger {
   display: none;
   font-size: 2rem;
@@ -63,7 +62,6 @@
   cursor: pointer;
 }
 
-/* адаптив */
 @media (max-width: 768px) {
   .header {
     width: 100%;
@@ -72,13 +70,13 @@
   }
 
   .logo img {
-    height: 40px; /* уменьшаем логотип на маленьких экранах */
+    height: 40px;
   }
 
   .nav {
     display: none;
     flex-direction: column;
-    background: #451366; /* фон как у хедера */
+    background: #240185;
     position: absolute;
     top: 60px;
     right: 20px;
@@ -91,7 +89,7 @@
   }
 
   .nav button {
-    width: 120px; /* чуть шире, чтобы кнопки помещались */
+    width: 120px;
     font-size: 0.9rem;
   }
 

@@ -2,7 +2,7 @@ import { useState } from "react";
 import About from "./components/About";
 import Projects from "./components/projects.jsx";
 import Contact from "./components/Contact";
-import Header from "./components/Header"; // ✅ импортируем новый Header
+import Header from "./components/Header";
 import "./App.css";
 
 function App() {
