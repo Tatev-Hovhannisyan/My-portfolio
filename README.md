@@ -23,6 +23,14 @@ This site demonstrates:
 
 ---
 
+## Tech Stack
+
+- **React** (components, hooks)
+- **Vite** (fast tooling and bundling)
+- **JavaScript (ES6+)**
+- **CSS** (modular styling, responsive layout)
+- **ESLint** (for consistent code style and quality)
+  
 ##  How to Run Locally
 
 ```bash
@@ -32,16 +40,6 @@ npm install
 npm start
 
 
-## Tech Stack
 
-- **React** (components, hooks)
-- **Vite** (fast tooling and bundling)
-- **JavaScript (ES6+)**
-- **CSS** (modular styling, responsive layout)
-- **ESLint** (for consistent code style and quality)
 
-About Me
 
-I’m a frontend developer specializing in React and modern web technologies. This portfolio highlights my passion for clean, performant, and responsive web development.
-
-Feel free to explore my projects and reach out if you'd like to work together!
