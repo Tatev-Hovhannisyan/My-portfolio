@@ -8,29 +8,29 @@ function Contact() {
         <h2>Contact</h2>
         <p>
           Email:{" "}
-          <a href="mailto:tatevhovhannisyan494@gmail.com">
-            tatevhovhannisyan494@gmail.com
-          </a>
+          {/* <a href="mailto:tatevhovhannisyan494@gmail.com"> */}
+           XXXXX@gmail.com
+          {/* </a> */}
         </p>
         <p>
           GitHub:{" "}
-          <a
+          {/* <a
             href="https://github.com/tatev-hovhannisyan"
             target="_blank"
             rel="noopener noreferrer"
-          >
-            github.com/tatev-hovhannisyan
-          </a>
+          > */}
+            github.com/XXXXX
+          {/* </a> */}
         </p>
         <p>
           LinkedIn:{" "}
-          <a
+          {/* <a
             href="https://linkedin.com/in/yourprofile"
             target="_blank"
             rel="noopener noreferrer"
-          >
-            linkedin.com/in/yourprofile
-          </a>
+          > */}
+            linkedin.com/in/XXXXX
+          {/* </a> */}
         </p>
       </div>
     </section>

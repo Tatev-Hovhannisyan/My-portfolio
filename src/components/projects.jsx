@@ -21,7 +21,7 @@ const projects = [
     id: 3,
     title: "Budget Tracker",
     description: "Web app to track personal expenses and budget.",
-    image: "./budget-tracker.png",
+    image: "./2.png",
     link: "https://tatev-hovhannisyan.github.io/Budget-Tracker/",
   },
   {
