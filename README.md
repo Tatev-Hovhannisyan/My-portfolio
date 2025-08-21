@@ -1,12 +1,47 @@
-# React + Vite
+#  My Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A personal portfolio website built with **React** and **Vite**, showcasing my projects, skills, and frontend capabilities.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+##  About This Portfolio
 
-## Expanding the ESLint configuration
+This site demonstrates:
+- A modern and responsive portfolio layout.
+- Built using **React**, **Vite**, **JavaScript**, **HTML**, and **CSS**.
+- Fast development environment with **Vite** and **ESLint** integration.
+- Smooth user experience with clean design and accessibility in mind.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+##  Features
+
+- Clear navigation to key sections: Home, Projects, About Me, Contact.
+- Responsive design for both mobile and desktop views.
+- Smooth project previews with links to live demos and GitHub repos.
+- Fast and optimized build thanks to Vite.
+
+---
+
+##  How to Run Locally
+
+```bash
+git clone https://github.com/Tatev-Hovhannisyan/My-portfolio.git
+cd My-portfolio
+npm install
+npm start
+
+
+## Tech Stack
+
+- **React** (components, hooks)
+- **Vite** (fast tooling and bundling)
+- **JavaScript (ES6+)**
+- **CSS** (modular styling, responsive layout)
+- **ESLint** (for consistent code style and quality)
+
+About Me
+
+I’m a frontend developer specializing in React and modern web technologies. This portfolio highlights my passion for clean, performant, and responsive web development.
+
+Feel free to explore my projects and reach out if you'd like to work together!
