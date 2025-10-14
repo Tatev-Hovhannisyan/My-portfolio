@@ -3,6 +3,14 @@ import React from "react";
 import styles from "./Projects.module.css";
 
 const projects = [
+    {
+    id: 0,
+    title: "Cafe Regina - Responsive Website from Figma Design",
+    description: "Pixel-perfect landing page converted from a Figma mockup.",
+    image: "./CafeRegina1.png", 
+    link: "https://responsive-website-from-figma-desig.vercel.app", 
+  },
+
   {
     id: 1,
     title: "ACA Tetris",
