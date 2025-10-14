@@ -1,8 +1,12 @@
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 
-// https://vite.dev/config/
+// Определяем, где мы запущены
+const isGitHubPages = process.env.GITHUB_PAGES === 'true'
+
+// Если GitHub Pages — укажем base с названием репозитория
+// Если Vercel или локально — base = '/'
 export default defineConfig({
   plugins: [react()],
-  base: '/My-portfolio/',
+  base: isGitHubPages ? '/My-portfolio/' : '/',
 })
