@@ -43,7 +43,7 @@ const projects = [
     id: 5,
     title: "Game1",
     description: "Fun mini game built with JavaScript.",
-    image: "./game1.png",
+    image: "./Number Guessing.png",
     link: "https://tatev-hovhannisyan.github.io/Game1/",
   },
 ];
