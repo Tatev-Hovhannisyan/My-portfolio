@@ -8,7 +8,7 @@ const projects = [
     title: "Cafe Regina - Responsive Website from Figma Design",
     description: "Pixel-perfect landing page converted from a Figma mockup.",
     image: "./CafeRegina1.png", 
-    link: "https://responsive-website-from-figma-desig.vercel.app", 
+    link: " https://tatev-hovhannisyan.github.io/Responsive-Website-from-Figma-Design-Cafe-Regina-/", 
   },
 
   {
