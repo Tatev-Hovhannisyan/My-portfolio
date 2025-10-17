@@ -3,12 +3,12 @@ import React from "react";
 import styles from "./Projects.module.css";
 
 const projects = [
-    {
+  {
     id: 0,
     title: "Cafe Regina - Responsive Website from Figma Design",
     description: "Pixel-perfect landing page converted from a Figma mockup.",
-    image: "./CafeRegina1.png", 
-    link: "https://tatev-hovhannisyan.github.io/Responsive-Website-from-Figma-Design-Cafe-Regina-/", 
+    image: "./CafeRegina1.png",
+    link: "https://tatev-hovhannisyan.github.io/Responsive-Website-from-Figma-Design-Cafe-Regina-/",
   },
 
   {
