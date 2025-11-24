@@ -3,6 +3,14 @@ import React from "react";
 import styles from "./Projects.module.css";
 
 const projects = [
+ {
+    id: 6,
+    title: "Promptly - AI Prompt Generator",
+    description: "AI-powered prompt generator for creative writing and brainstorming.",
+    image: "./P1.png",
+    link: "https://my-promptly-new.vercel.app/",
+
+ },
   {
     id: 0,
     title: "Cafe Regina - Responsive Website from Figma Design",
